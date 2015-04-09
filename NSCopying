@@ -1,0 +1,2 @@
+一个对象想要copy,⽣成⾃己的副本,需要实现 NSCopying协议,定义copy的细节(如何copy)。
+如果类没有接受NSCopying协议⽽给对象发送copy消息,会引起crash
